@@ -115,6 +115,7 @@ CREATE TABLE booked_trips (
 -- Creating Admin Table
 CREATE TABLE admin (
     admin_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name varchar(25),
     last_name VARCHAR(255),
     email VARCHAR(255) UNIQUE,
     password VARCHAR(255)
